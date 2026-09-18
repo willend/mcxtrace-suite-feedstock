@@ -36,7 +36,8 @@ outputs:
         - msmpi  # [win]
         - openmpi =4  # [unix]
         - bash  # [unix]
-        # for mxrun
+        - openssh  # [unix]
+        # for mcrun
         - pyaml
         - numpy
         - mslex  # [win]
